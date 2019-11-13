@@ -85,11 +85,23 @@ iframe{
 }
 
 .content > img{
-    margin:4px;
+    margin:20px;
     filter:grayscale(100%);
-    transition: filter 2s;
+    transition: filter 1s;
 }
 
 .content > img:hover{
     filter:grayscale(0%);
+    visibility: visible;
+}
+
+.caption{
+    visibility: hidden;
+    transition: visibility 1s;
+    font-size:20px;
+
+}
+
+.caption:hover{
+    visibility: visible;
 }
