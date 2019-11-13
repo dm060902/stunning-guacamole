@@ -105,3 +105,8 @@ iframe{
 .caption:hover{
     visibility: visible;
 }
+
+#clothes{
+    width:250px;
+    height:250px;
+}
